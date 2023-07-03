@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: rgb(255, 223, 164);
     margin-left: 5%;
     margin-right: 5%;
     padding: 0%;
@@ -12,3 +12,6 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
   }
+  .section {
+  background-color:aquamarine;
+}
