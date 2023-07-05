@@ -5,7 +5,7 @@ body {
     margin-right: 5%;
     padding: 0%;
     text-align: center  ;
-    margin-top: 8%;
+    margin-top: 2%;
   }
   
   .container {
@@ -36,4 +36,11 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom: 12px;
+  }
+  article{
+    background-color:#aeafaf;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-color: aliceblue; 
+    border:#000000 10px solid;
   }
