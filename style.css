@@ -15,6 +15,10 @@ body {
     margin-bottom: 5%;
     
   }
-  .button{
-    color: aquamarine;
+  button{
+    background-color: #656968;
+    border-color: aliceblue;
+    color: aliceblue;
+    padding: auto;
+    border-radius: 10px;
   }
