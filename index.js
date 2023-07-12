@@ -65,7 +65,6 @@ function solicitudAJAX(params) {
   
     if (busqueda >= 0) {
       var objXMLHttpRequest = new XMLHttpRequest();
-  
       objXMLHttpRequest.onreadystatechange = function () {
         if (objXMLHttpRequest.readyState === 4) {
           if (objXMLHttpRequest.status === 200) {
