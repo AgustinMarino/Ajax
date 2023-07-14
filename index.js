@@ -31,7 +31,12 @@ function solicitudAJAX(params) {
           let json = JSON.parse(objXMLHttpRequest.responseText);
           let nombre = json.name;
           let uriImg = json.sprites.other.home.front_default;
-  
+          console.log(json);
+          let tipo1 = json.types[0].type.name;
+          let tipo2 = undefined;
+        }
+          if(json.types[1] != undefined){
+            tipo2 = json.types[1].type.name;
           let html =
             `<div class="card" style="width: 18rem;">
     <img src="` +
