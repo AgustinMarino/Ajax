@@ -27,22 +27,7 @@ function buscar() {
     function getRandomInt(max) {
       return Math.floor(Math.random() * max);
     }
-
-    let html2 =
-      `<div class="card" style="width: 18rem; background-color: rgba(255, 255, 255, 0); border: none;">
-    <img src="` +
-      "../img/MissingNO" + getRandomInt(8) + ".png" +
-      `" class="card-img-top" alt="..." id="pokemon">
-    <div class="card-body">
-      <h5 class="card-title" id="nombre2">` +
-      "Missing" + `<br>` + " Number" +
-      `</h5>
-      <p class="card-text"></p>
-      <img src="../img/unknown.png"
-      class="card-img-top" alt="..." id="tipo1">
-<p class="card-text"></p>
-</div>
-</div>`;
+;
     tarjetas.innerHTML = html2;
   }
   else if (busqueda > 0 ) {
@@ -74,9 +59,9 @@ function buscar() {
             nombre[0].toUpperCase() + nombre.substring(1) +
             `</h5>`
             +
-            `<img src="../img/`+ tipo1 +`.png"
+            `<img src="../Ajax/img/`+ tipo1 +`.png"
              class="card-img-top" alt="..." id="tipo1">
-            <img src="../img/` + tipo2 + `.png"
+            <img src="../Ajax/img/` + tipo2 + `.png"
             class="card-img-top" alt="..." id="tipo2">
       <p class="card-text"></p>
     </div>
